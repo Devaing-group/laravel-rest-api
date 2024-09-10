@@ -1,15 +1,15 @@
 <?php
 
-namespace Froiden\RestAPI\Handlers;
+namespace Devaing\RestAPI\Handlers;
 
 use App\Exceptions\Handler;
-use Froiden\RestAPI\ApiResponse;
-use Froiden\RestAPI\Exceptions\ApiException;
-use Froiden\RestAPI\Exceptions\Parse\UnknownFieldException;
-use Froiden\RestAPI\Exceptions\UnauthenticatedException;
-use Froiden\RestAPI\Exceptions\UnauthenticationException;
-use Froiden\RestAPI\Exceptions\UnauthorizedException;
-use Froiden\RestAPI\Exceptions\ValidationException;
+use Devaing\RestAPI\ApiResponse;
+use Devaing\RestAPI\Exceptions\ApiException;
+use Devaing\RestAPI\Exceptions\Parse\UnknownFieldException;
+use Devaing\RestAPI\Exceptions\UnauthenticatedException;
+use Devaing\RestAPI\Exceptions\UnauthenticationException;
+use Devaing\RestAPI\Exceptions\UnauthorizedException;
+use Devaing\RestAPI\Exceptions\ValidationException;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Froiden\RestAPI\Tests\Controllers;
+namespace Devaing\RestAPI\Tests\Controllers;
 
-use Froiden\RestAPI\ApiController;
-use Froiden\RestAPI\Tests\Models\DummyUser;
+use Devaing\RestAPI\ApiController;
+use Devaing\RestAPI\Tests\Models\DummyUser;
 
 class UserController extends ApiController
 {

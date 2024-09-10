@@ -1,9 +1,9 @@
 <?php
 
-namespace Froiden\RestAPI\Tests\Controllers;
+namespace Devaing\RestAPI\Tests\Controllers;
 
-use Froiden\RestAPI\ApiController;
-use Froiden\RestAPI\Tests\Models\DummyPost;
+use Devaing\RestAPI\ApiController;
+use Devaing\RestAPI\Tests\Models\DummyPost;
 
 class PostController extends ApiController
 {

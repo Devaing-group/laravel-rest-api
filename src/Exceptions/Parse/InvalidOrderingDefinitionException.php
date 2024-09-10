@@ -1,9 +1,9 @@
 <?php
 
-namespace Froiden\RestAPI\Exceptions\Parse;
+namespace Devaing\RestAPI\Exceptions\Parse;
 
-use Froiden\RestAPI\Exceptions\ApiException;
-use Froiden\RestAPI\Exceptions\ErrorCodes;
+use Devaing\RestAPI\Exceptions\ApiException;
+use Devaing\RestAPI\Exceptions\ErrorCodes;
 
 class InvalidOrderingDefinitionException extends ApiException
 {

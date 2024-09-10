@@ -1,8 +1,8 @@
 <?php
 
-namespace Froiden\RestAPI\Tests\Models;
+namespace Devaing\RestAPI\Tests\Models;
 
-use Froiden\RestAPI\ApiModel;
+use Devaing\RestAPI\ApiModel;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
